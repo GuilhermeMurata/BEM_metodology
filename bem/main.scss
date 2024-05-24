@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
 
 .produtos {
     max-width: 640px;
@@ -6,18 +11,18 @@
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-column-gap: 1%;
-    
+
     &__control {
         margin: 0;
         padding: 0;
         font-family: sans-serif;
     }
-
+    
     &__name {
         font-size: 1.2em;
         margin: 8px 0;
     }
-
+    
     &__img {
         width: 100%;
     }
@@ -26,10 +31,11 @@
         color: gray;
     }
 
-    &____destaque {
+    &__destaque {
         border: 2px solid gold;
         padding: 8px;
         background-color: #ffff42;
     }
 }
+
 
